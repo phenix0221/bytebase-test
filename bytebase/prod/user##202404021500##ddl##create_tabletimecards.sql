@@ -4,5 +4,5 @@ CREATE TABLE timecards (
   `date` DATE NOT NULL,
   `start_time` TIME NOT NULL,
   `end_time` TIME NOT NULL,
-  `hours_worked` DECIMAL(5, 2) NOT NULL,
+  `hours_worked` DECIMAL(5, 2) NOT NULL
 );
