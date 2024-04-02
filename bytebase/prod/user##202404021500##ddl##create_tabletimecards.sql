@@ -5,5 +5,4 @@ CREATE TABLE timecards (
   `start_time` TIME NOT NULL,
   `end_time` TIME NOT NULL,
   `hours_worked` DECIMAL(5, 2) NOT NULL,
-  FOREIGN KEY (`emp_no`) REFERENCES `employee` (`emp_no`) 
 );
